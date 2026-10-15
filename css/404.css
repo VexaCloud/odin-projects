@@ -3,36 +3,43 @@ a {
 }
 
 body {
-    background-color: #8e8d8d58;
+    background-color: #f6f5b0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#larr {
+    display: inline-block;
+    transform: scaleX(.6);
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .arrow {
     display: inline-block;
     box-sizing: content-box;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: Monaco, Consolas, "Lucida Console", monospace;
     text-align: center;
+    text-decoration: none;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
     background-color: #f6f5b0;
     color: black;
     width: 35px;
-    height: 30px;
+    height: 35px;
     border-radius: 100%;
     border: 1px solid black;
-    padding-top: 5.2px;
     margin-right: 16px;
-    margin-top: 20px;
-    margin-left: 41.5%;
-    transition: width .3s, height .3s, background-color .3s, padding-top .3s, margin-top .3s, margin-left .3s ease;
+    transition: background-color .2s, color .2s ease;
 }
 
 .arrow:hover {
-    width: 45px;
-    height: 36px;
-    background-color: #f6f5b099;
-    padding-top: 11.2px;
-    margin-top: 17px;
-    margin-left: 41.1%;
+    background-color: #000000;
+    color: #f6f5b0;
 }
 
 .text {
@@ -45,20 +52,16 @@ body {
     background-color: #f6f5b0;
     color: black;
     width: 180px;
-    height: 28px;
+    height: 35px;
+    line-height: 33px;
     border-radius: 30px;
     border: 1px solid black;
-    padding-top: 7px;
-    margin-top: 20px;
-    transition: width .3s, height .3s, background-color .3s, padding-top .3s, margin-top .3s ease;
+    transition: background-color .2s, color .2s ease;
 }
 
 .text:hover {
-    width: 186px;
-    height: 34px;
-    background-color: #f6f5b099;
-    padding-top: 13px;
-    margin-top: 17px;
+    background-color: #000000;
+    color: #f6f5b0;
 }
 
 .title {
@@ -67,7 +70,6 @@ body {
     font-size: 50px;
     font-family: Monaco, Consolas, "Lucida Console", monospace;
     margin-top: 200px;
-    border: 5px solid black;
     border-radius: 20px;
     width: 600px;
     margin-left: 28.5%;
