@@ -37,7 +37,6 @@ img {
     width: 300px;
     height: 300px;
     border-radius: 25px;
-    transition: width .3s, height .3s ease;
 }
 
 img:hover {

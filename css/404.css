@@ -48,7 +48,7 @@ body {
     text-decoration: none;
     text-align: center;
     font-size: 14px;
-    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f6f5b0;
     color: black;
     width: 180px;
@@ -68,7 +68,7 @@ body {
     display: block;
     text-align: center;
     font-size: 50px;
-    font-family: Monaco, Consolas, "Lucida Console", monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 200px;
     border-radius: 20px;
     width: 600px;
