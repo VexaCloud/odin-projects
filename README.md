@@ -1,8 +1,8 @@
-# The Odin Project
+### The Odin Project
 
 ---
 
-## Projects
+### Projects
 
 This contains my finished projects from The Odin Project curriculum.
 
