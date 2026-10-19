@@ -7,6 +7,7 @@
 This contains my finished projects from The Odin Project curriculum.
 
 ### Project list:
-
+``` txt
   - Recipes (finished)
   - Landing page (in progress)
+```
